@@ -1,0 +1,17 @@
+{
+  "salario": "Salário",
+  "freelance": "Freelance",
+  "investimentos": "Investimentos",
+  "presentes": "Presentes",
+  "outros_rendimentos": "Outros Rendimentos",
+  "aluguel": "Aluguel",
+  "alimentacao": "Alimentação",
+  "transporte": "Transporte",
+  "lazer": "Lazer",
+  "saude": "Saúde",
+  "educacao": "Educação",
+  "contas_de_consumo": "Contas de Consumo",
+  "compras": "Compras",
+  "metas_de_poupanca": "Metas de Poupança",
+  "outras_despesas": "Outras Despesas"
+}

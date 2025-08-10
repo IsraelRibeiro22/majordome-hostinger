@@ -1,0 +1,32 @@
+{
+  "title": "Configurações",
+  "description": "Personalize a sua experiência.",
+  "general": "Geral",
+  "language": "Idioma",
+  "theme": {
+    "title": "Tema",
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "currency": {
+    "title": "Exibição de Moeda",
+    "selectHint": "Selecione até 3 moedas para exibir no painel.",
+    "noSelection": "Nenhuma moeda selecionada. Vá para as configurações para adicionar."
+  },
+  "financialCycle": {
+    "title": "Ciclo Financeiro",
+    "startDay": "Dia de Início do Ciclo Financeiro",
+    "selectDay": "Selecione o dia",
+    "periodView": "Visualização do Período",
+    "selectView": "Selecione a visualização",
+    "financialCycle": "Ciclo Financeiro",
+    "calendarMonth": "Mês Calendário",
+    "customRange": "Intervalo Personalizado"
+  },
+  "componentVisibility": {
+    "title": "Visibilidade dos Componentes",
+    "savingsGoals": "Mostrar Metas de Poupança",
+    "budgetPlanner": "Mostrar Planejador de Orçamento",
+    "biblicalWisdom": "Mostrar Sabedoria Bíblica"
+  }
+}

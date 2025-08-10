@@ -1,0 +1,26 @@
+{
+  "title": "Metas de Poupança",
+  "addGoal": "Adicionar Meta",
+  "editGoal": "Editar Meta",
+  "newGoal": "Nova Meta de Poupança",
+  "goalName": "Nome da Meta",
+  "goalNamePlaceholder": "Ex: Viagem para a Europa",
+  "targetAmount": "Valor Alvo",
+  "currentAmount": "Valor Atual",
+  "deadline": "Prazo Final",
+  "noGoals": "Nenhuma meta de poupança definida.",
+  "clickToAdd": "Clique no botão acima para adicionar uma.",
+  "contribute": "Contribuir",
+  "contributionAmount": "Valor da Contribuição",
+  "confirmContribution": "Confirmar Contribuição",
+  "contributionSuccess": "Contribuição adicionada com sucesso!",
+  "deleteGoalWarning": "Tem certeza que deseja excluir esta meta? Esta ação não pode ser desfeita.",
+  "evolution": {
+    "title": "Evolução Financeira Anual",
+    "income": "Receitas",
+    "expenses": "Despesas",
+    "balance": "Saldo",
+    "fixedExpenses": "Despesas Fixas",
+    "commonExpenses": "Despesas Variáveis"
+  }
+}

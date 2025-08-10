@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 text-gray-900;
+  @apply dark:bg-gradient-to-br dark:from-gray-950 dark:via-slate-900 dark:to-black dark:text-gray-200;
+  transition-colors: 300ms ease-in-out;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 20% 98%;
+    --card: 224 71.4% 4.1%;
+    --card-foreground: 210 20% 98%;
+    --popover: 215 27.9% 16.9%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 47.3%;
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 216 12.2% 83.9%;
+  }
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-sm border border-white/20 shadow-xl;
+  @apply dark:bg-slate-900/40 dark:backdrop-blur-lg dark:border-blue-500/20 dark:shadow-2xl;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent;
+  @apply dark:from-blue-400 dark:via-purple-400 dark:to-indigo-400;
+}
+
+.financial-card {
+  @apply bg-gradient-to-br from-white/80 to-white/60 backdrop-blur-sm border border-white/30 shadow-lg hover:shadow-xl transition-all duration-300;
+  @apply dark:bg-gradient-to-br dark:from-gray-800/80 dark:to-gray-900/80 dark:backdrop-blur-md dark:border-gray-700/50 dark:shadow-2xl dark:shadow-black/30;
+}
+
+/* Specific elements inside cards for better dark mode contrast */
+.dark .bg-white\/30 {
+  @apply bg-gray-700/50;
+}
+
+.dark .bg-white\/40 {
+  @apply bg-gray-700/60;
+}
+
+.dark .bg-white\/50 {
+  @apply bg-gray-700/70;
+}
+
+/* Inputs and selects within forms inside cards */
+.dark .bg-white.dark\:bg-slate-900 {
+  @apply bg-gray-900;
+}
+
+/* Adjust button variant default colors for dark mode */
+.dark .bg-cyan-500.to-sky-600 {
+    @apply from-cyan-600 to-sky-700;
+}
+
+.dark .bg-green-500.to-emerald-600 {
+    @apply from-green-600 to-emerald-700;
+}
+
+.dark .bg-blue-500.to-indigo-600 {
+    @apply from-blue-600 to-indigo-700;
+}
+
+.dark .bg-purple-500.to-violet-600 {
+    @apply from-purple-600 to-violet-700;
+}
+
+.dark .bg-red-500.to-rose-600 {
+    @apply from-red-600 to-rose-700;
+}
+
+.dark .bg-yellow-500.to-amber-600 {
+    @apply from-yellow-600 to-amber-700;
+}
+
+/* Specific background colors for overview cards in dark mode */
+.dark .dark\:from-purple-900\/40 { @apply from-purple-950/[.50]; }
+.dark .dark\:to-violet-950\/40 { @apply to-violet-900/[.50]; }
+.dark .dark\:from-green-900\/40 { @apply from-green-950/[.50]; }
+.dark .dark\:to-emerald-950\/40 { @apply to-emerald-900/[.50]; }
+.dark .dark\:from-red-900\/40 { @apply from-red-950/[.50]; }
+.dark .dark\:to-rose-950\/40 { @apply to-rose-900/[.50]; }
+.dark .dark\:from-blue-900\/40 { @apply from-blue-950/[.50]; }
+.dark .dark\:to-indigo-950\/40 { @apply to-indigo-900/[.50]; }
+.dark .dark\:from-yellow-900\/30 { @apply from-yellow-950/[.40]; }
+.dark .dark\:to-amber-950\/30 { @apply to-amber-900/[.40]; }
+.dark .dark\:from-teal-900\/30 { @apply from-teal-950/[.40]; }
+.dark .dark\:to-cyan-950\/30 { @apply to-cyan-900/[.40]; }
+.dark .dark\:from-pink-900\/30 { @apply from-pink-950/[.40]; }
+.dark .dark\:to-rose-950\/30 { @apply to-rose-900/[.40]; }
+
+/* Analysis Modal Specific Backgrounds */
+.dark .bg-gray-50.dark\:bg-slate-800\/50 {
+  @apply bg-gray-900/60;
+}
+
+/* Butler Button Animation */
+.butler-button {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+  }
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.5);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(156, 163, 175, 0.7);
+}
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 116, 139, 0.5);
+}
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 116, 139, 0.7);
+}

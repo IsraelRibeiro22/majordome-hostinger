@@ -1,0 +1,22 @@
+{
+  "title": "Dízimo",
+  "honorLord": "Honre ao Senhor com os seus bens.",
+  "deliveredTitle": "Dízimo Entregue!",
+  "deliveredMessage": "Você honrou ao Senhor com seus bens este mês.",
+  "notDeliveredMessage": "O dízimo para este mês ainda não foi entregue.",
+  "deliverButton": "Entregar Dízimo",
+  "malachiQuote": "\"Trazei todos os dízimos à casa do tesouro...\" - Malaquias 3:10",
+  "modalDescription": "Confirme os valores e selecione a conta para entregar o dízimo.",
+  "selectMonth": "Selecione o Mês de Referência",
+  "titheIn": "Dízimo em",
+  "delivered": "Entregue",
+  "missing": "Faltante",
+  "noTitheRegistered": "Nenhuma receita registrada para este mês.",
+  "selectAccount": "Selecione a conta de débito",
+  "selectAccountError": "Por favor, selecione uma conta para debitar o dízimo.",
+  "alreadyPaidTitle": "Dízimo já pago",
+  "alreadyPaidDescription": "O dízimo para esta moeda já foi totalmente pago.",
+  "successTitle": "Dízimo Entregue!",
+  "successDescription": "Obrigado por sua fidelidade.",
+  "titheFor": "Dízimo de"
+}

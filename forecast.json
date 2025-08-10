@@ -1,0 +1,12 @@
+{
+  "title": "Saldo Futuro",
+  "description": "Preveja o saldo futuro com base nas suas transações recorrentes.",
+  "noFixedTransactions": "Nenhuma transação recorrente para prever neste período.",
+  "futureBalance": "Saldo Futuro",
+  "next7days": "Próximos 7 dias",
+  "next15days": "Próximos 15 dias",
+  "next30days": "Próximos 30 dias",
+  "negativeBalanceAlertTitle": "Alerta de Saldo Negativo!",
+  "negativeBalanceAlertText": "O saldo da sua conta pode ficar negativo em {{date}}.",
+  "noFutureTransactions": "Nenhuma transação futura para exibir."
+}

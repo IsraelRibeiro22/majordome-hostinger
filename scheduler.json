@@ -1,0 +1,12 @@
+{
+  "helmetTitle": "Agendamento - Majordome Financeiro",
+  "title": "Agende sua Consultoria",
+  "subtitle": "Escolha uma data e horário para uma sessão de consultoria financeira.",
+  "availableSlots": "Horários Disponíveis",
+  "selectADay": "Selecione um dia no calendário",
+  "booked": "Reservado",
+  "slotsWillBeShown": "Os horários disponíveis serão exibidos aqui.",
+  "successTitle": "Agendamento Confirmado!",
+  "successDescription": "Sua consultoria foi agendada para",
+  "scheduleButton": "Agendar Consultoria"
+}

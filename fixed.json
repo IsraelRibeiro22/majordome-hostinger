@@ -1,0 +1,54 @@
+{
+  "expenses": {
+    "title": "Despesas Fixas",
+    "add": "Adicionar Despesa Fixa",
+    "editTitle": "Editar Despesa Fixa",
+    "addTitle": "Nova Despesa Fixa",
+    "recurrence": "Recorrência",
+    "startsOn": "Inicia em",
+    "endsOn": "Termina em",
+    "noData": "Nenhuma despesa fixa registrada.",
+    "clickToAdd": "Clique no botão acima para adicionar uma.",
+    "setEndDate": "Definir data de término (opcional)",
+    "addFixedExpense": "Adicionar Despesa Fixa",
+    "descriptionPlaceholder": "Ex: Assinatura de Streaming, Aluguel",
+    "toast": {
+      "addedTitle": "Despesa Fixa Adicionada",
+      "addedDesc": "A nova despesa fixa foi adicionada com sucesso.",
+      "updatedTitle": "Despesa Fixa Atualizada",
+      "updatedDesc": "A despesa fixa foi atualizada com sucesso.",
+      "removedTitle": "Despesa Fixa Removida",
+      "removedDesc": "A despesa fixa foi removida com sucesso.",
+      "deleteWarning": "Esta ação não pode ser desfeita. Isto irá apagar permanentemente a despesa fixa e todas as suas futuras ocorrências."
+    }
+  },
+  "incomes": {
+    "title": "Receitas Fixas",
+    "add": "Adicionar Receita Fixa",
+    "editTitle": "Editar Receita Fixa",
+    "addTitle": "Nova Receita Fixa",
+    "recurrence": "Recorrência",
+    "startsOn": "Inicia em",
+    "endsOn": "Termina em",
+    "noData": "Nenhuma receita fixa registrada.",
+    "clickToAdd": "Clique no botão acima para adicionar uma.",
+    "toast": {
+      "addedTitle": "Receita Fixa Adicionada",
+      "addedDesc": "A nova receita fixa foi adicionada com sucesso.",
+      "updatedTitle": "Receita Fixa Atualizada",
+      "updatedDesc": "A receita fixa foi atualizada com sucesso.",
+      "removedTitle": "Receita Fixa Removida",
+      "removedDesc": "A receita fixa foi removida com sucesso."
+    }
+  },
+  "recurrenceOptions": {
+    "daily": "Diário",
+    "weekly": "Semanal",
+    "biweekly": "Quinzenal",
+    "monthly": "Mensal",
+    "bimonthly": "Bimestral",
+    "quarterly": "Trimestral",
+    "semiannually": "Semestral",
+    "annually": "Anual"
+  }
+}

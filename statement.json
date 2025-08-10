@@ -1,0 +1,22 @@
+{
+  "title": "Extrato Consolidado",
+  "allTransactions": "Todas as Transações",
+  "noTransactions": "Nenhuma transação encontrada.",
+  "filterType": "Filtrar por Tipo",
+  "allTypes": "Todos os Tipos",
+  "incomeOnly": "Apenas Receitas",
+  "expensesOnly": "Apenas Despesas",
+  "filterAccount": "Filtrar por Conta",
+  "allAccounts": "Todas as Contas",
+  "date": "Data",
+  "incomes": "Receitas",
+  "expenses": "Despesas",
+  "balance": "Saldo",
+  "initialBalance": "Saldo Anterior",
+  "finalBalance": "Saldo Final",
+  "noTransactionsInPeriod": "Nenhuma transação neste período.",
+  "descriptionSingleAccount": "Veja o fluxo de caixa detalhado para a conta selecionada.",
+  "selectAnAccount": "Selecione uma conta para ver o extrato.",
+  "period": "Período",
+  "descriptionWithForecast": "Visualize o extrato consolidado das suas contas e o saldo futuro."
+}

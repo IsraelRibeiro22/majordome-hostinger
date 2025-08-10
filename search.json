@@ -1,0 +1,15 @@
+{
+  "description": "Encontre transações por categoria dentro de um período específico.",
+  "income": "Receitas",
+  "expenses": "Despesas",
+  "selectCategory": "Selecione uma categoria",
+  "searchCategory": "Buscar categoria...",
+  "noCategoryFound": "Nenhuma categoria encontrada.",
+  "button": "Pesquisar",
+  "results": "Resultados da Pesquisa",
+  "fillAllFields": "Por favor, selecione uma categoria e um período para pesquisar.",
+  "totalFoundFor": "Total encontrado para",
+  "noTransactionsFound": "Nenhuma transação encontrada para os critérios selecionados.",
+  "finalTotal": "Total Final",
+  "performASearch": "Realize uma pesquisa para ver os resultados."
+}
